@@ -1,5 +1,5 @@
 from pqueue import PQueue
-p = PQueue()
+p =  PQueue()
 p.enqueue("HELLO",1)
 p.enqueue("H",2)
 p.enqueue("E",5)
