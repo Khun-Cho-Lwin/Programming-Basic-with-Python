@@ -18,7 +18,7 @@ class PQueue:
             if myqueue.size() == 0:
                 del self.items[cursor]
                 return val
-                return ""
+                return " "
     def size(self):
         size = 0
         for key in self.items.keys():
