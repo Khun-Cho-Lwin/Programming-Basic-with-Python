@@ -1,5 +1,5 @@
 #for x in range(0,5):
-    #print("Hello World",x)
+#    print("Hello World",x) # with Looping
 
 
 #def recursive(string, num):
@@ -7,7 +7,7 @@
 #        return
 #    print(string,num)
 #recursive(string,num+1)
-#recursive("Hello World",0)
+#recursive("Hello World",0)  # with recursive
 
 #def listsum(numList):
 #    sum = 0
@@ -17,7 +17,7 @@
 #print(listsum([1,2,5,9,7]))
 
 def listsum(numList):
-    if len(numList) == 1:
+    if len(numList) == 1: #(***)
         return numList[0]
     else:
         return numList[0] + listsum(numList[1:])
