@@ -66,8 +66,6 @@ class OrderedList:
         previous.set_next(None)
         return current.get_data()
 mylist = OrderedList()
-mylist.add(3)
-mylist.add(31)
 mylist.add(71)
 mylist.add(10)
 mylist.add(5)
